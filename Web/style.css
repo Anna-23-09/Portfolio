@@ -1,0 +1,34 @@
+h1 {
+    font-family: 'fonts/fonts/Sickness';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Harry Potter (Russian Version of Gfdtk)';
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.img1 {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+html {
+    background-image: url('https://oir.mobi/uploads/posts/2021-03/1616555560_4-p-kraft-bumaga-fon-4.jpg');
+}
+
+
+@font-face {
+	font-family: 'Sickness';
+	src: url('../fonts/sickness.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sickness.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sickness.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sickness.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sickness.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sickness.svg#sickness') format('svg'); /* Chrome < 4, Legacy iOS */
+}
